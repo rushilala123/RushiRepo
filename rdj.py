@@ -8,6 +8,7 @@ import boto3
 from pyspark.sql.functions import *
 from pyspark.sql import *
 
+print("linw 11")
 
 ## @params: [JOB_NAME]
 args = getResolvedOptions(sys.argv, ['bucket', 'file'])
